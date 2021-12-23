@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur de degrés Celsius et Fahrenheit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+
+<body>
+
+
+    <form name="convert" method="post" action="">
+        <table width="170" style="border:0px;text-align:center;">
+            <tbody>
+                <h1>Convertisseur de degrés Celsius et Fahrenheit</h1>
+            </tbody>
+            <tr style="text-align: center;">
+                <td width="85">
+                    <div style="text-align:center;">
+                        <input name="celsius" type="text" id="celsius" onChange="celfar();" value="" size=8>
+                        <p style="color:#FFF;font-family: Arial, Helvetica, sans-serif;font-size:20px;">Celsius</p>
+                    </div>
+                </td>
+                <td width="85">
+                    <div style="text-align:center;margin-left:120px;">
+                        <input name="fahrenheit" type="text" id="fahrenheit" onChange="farcel();" value="" size=8>
+                        <p style="color:#FFF;font-family: Arial, Helvetica, sans-serif;font-size:20px;">Fahrenheit</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="exercice2.js"></script>
+
+</body>
+
+</html>

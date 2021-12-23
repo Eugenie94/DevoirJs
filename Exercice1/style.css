@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum&display=swap');
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: rgb(255, 121, 210);
+}
+
+input[type="range"]{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40%; 
+  max-width: 100%;
+  height: 15px;
+  padding: 0px;
+  background: #FFF;
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  box-shadow: 0 2px 35px rgba(0,0,0,.4555);
+  border-radius: 10px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+  z-index:1;
+}
+
+input[type="checkbox"]{
+  border: 2px solid #FFF;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 20px;
+  transition: 0.2s ease;
+}
+
+
+#password-generator {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 600px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 
+}
+
+#password-output {
+  color:#FFF;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto 1.2rem;
+  width: 100%;
+}
+
+#password-length{
+  width:50%;
+}
+
+#display-password-length{
+  color:#FFF;
+  font-size:20px;
+  width:5%;
+}
+
+.range {
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 2.5rem;
+ 
+}
+
+#lowercase, #uppercase, #numbers, #symbols {
+  font-size: 20px;
+  width:20px;
+  height:20px;
+}
+
+#generateButton{
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background:linear-gradient(to bottom, #ff88ef 5%, #ff2cd1 100%);
+  background-color:rgb(255, 121, 210);;
+  border-radius:10px;
+  margin-top: 20px;
+  border:1px solid #FFF;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:19px;
+  padding:12px 37px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px rgb(255, 121, 210);;
+}
+
+#generateButton:hover {
+  background:linear-gradient(to bottom, #ff88ef 5%, #ff2cd1 100%);
+}
+
+
+  
